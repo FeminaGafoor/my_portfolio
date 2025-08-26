@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Femina Azeez - AI Engineer Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#home" class="logo">FA</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="section hero visible">
+            <div class="hero-content">
+                <h1 class="hero-title">Femina Azeez</h1>
+                <p class="hero-subtitle">AI Engineer | FullStack Developer</p>
+                <p class="hero-description">
+                    Passionate AI Engineer with hands-on experience in NLP, LLMs, and Retrieval-Augmented Generation (RAG). 
+                    I specialize in building practical GenAI solutions that enhance user experience and drive business growth. 
+                    Known for my self-learning mindset and ability to rapidly adapt to evolving AI technologies.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image floating">
+                <!-- <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDMwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzY2N2VlYTtzdG9wLW9wYWNpdHk6MSIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM3NjRiYTI7c3RvcC1vcGFjaXR5OjEiIC8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PGNpcmNsZSBjeD0iMTUwIiBjeT0iMTUwIiByPSIxNTAiIGZpbGw9InVybCgjZ3JhZGllbnQpIi8+PHRleHQgeD0iMTUwIiB5PSIxNzAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjgwIiBmb250LWZhbWlseT0iSW50ZXIsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3MDAiPkZBPC90ZXh0Pjwvc3ZnPg==" alt="Femina Azeez">
+            -->
+                <img src="pic.jpeg" alt="Femina Azeez">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">
+                    Get to know more about my background, skills, and passion for AI technology
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-info">
+                    <div class="certifications">
+                        <h4>Recent Certifications</h4>
+                        <div class="certification-item">
+                            <div class="cert-name">Introduction to Generative AI, Microsoft Learn</div>
+                            <div class="cert-date">May 2025</div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-name">Certified 1 Million Prompters, Dubai</div>
+                            <div class="cert-date">March 2025</div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-name">Certified Python Developer, GTech</div>
+                            <div class="cert-date">March 2023</div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/femina-azeez" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/FeminaGafoor" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">
+                        I'm an AI Engineer with hands-on experience in NLP, LLMs, and Retrieval-Augmented Generation (RAG). 
+                        My expertise spans from building practical GenAI solutions to developing full-stack applications that 
+                        enhance user experience and drive business growth.
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">
+                        Currently working as a Software Developer & AI Specialist at Greentruth Technology LLC, where I develop 
+                        AI-powered solutions and integrate cutting-edge technologies like OpenAI's GPT-4, LangChain, and vector databases.
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">
+                        My journey in technology began with full-stack development, where I mastered Python, Django, and PostgreSQL. 
+                        This strong foundation in software development has been invaluable as I transitioned into the AI domain, 
+                        allowing me to build robust, scalable AI applications.
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.8;">
+                        I'm passionate about the intersection of AI and user experience, constantly exploring new ways to make 
+                        complex AI technologies accessible and practical for real-world applications. My self-learning mindset 
+                        keeps me at the forefront of rapidly evolving AI technologies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Technical Proficiency</h2>
+                <p class="section-subtitle">
+                    A comprehensive overview of my technical skills and expertise areas
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i>AI & Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Gen AI</span>
+                        <span class="skill-tag">Natural Language Processing (NLP)</span>
+                        <span class="skill-tag">Large Language Models (LLMs)</span>
+                        <span class="skill-tag">OpenAI GPT-4</span>
+                        <span class="skill-tag">Retrieval-Augmented Generation (RAG)</span>
+                        <span class="skill-tag">Vector Databases</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i>AI Tools & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Hugging Face</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">LangGraph</span>
+                        <span class="skill-tag">LlamaIndex</span>
+                        <span class="skill-tag">Google ADK</span>
+                        <span class="skill-tag">ChromaDB</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">n8n</span>
+                        <span class="skill-tag">Zapier</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i>Development & Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">CRUD Operations</span>
+                        <span class="skill-tag">API Development</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-lightbulb"></i>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Research & Experimentation</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Critical Thinking</span>
+                        <span class="skill-tag">Continuous & Self Learning</span>
+                        <span class="skill-tag">Decision Making</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">
+                    My journey through various roles and the impact I've made
+                </p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="company">Greentruth Technology LLC</div>
+                        <div class="role">Software Developer & AI Specialist</div>
+                        <div class="duration">July 2024 - Present</div>
+                        <ul class="achievements">
+                            <li>Developed AI chatbots using Retrieval-Augmented Generation (RAG) and vector databases for enhanced context awareness</li>
+                            <li>Skilled in Hugging Face, LangChain, LlamaIndex, Google ADK, and prompt engineering for advancing GenAI research and deployment</li>
+                            <li>Integrated GenAI features into web applications for interactive user experiences</li>
+                            <li>Implemented AI workflow automation using n8n and Zapier for streamlined operations</li>
+                            <li>Built AI-powered job search assistant using OpenAI, LangSmith, and SerpAPI to understand natural language queries</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="company">Brototype</div>
+                        <div class="role">Python FullStack Developer, India</div>
+                        <div class="duration">May 2023 - June 2024</div>
+                        <ul class="achievements">
+                            <li>Designed and developed "Purple," a full e-commerce site using Python, Django, and PostgreSQL</li>
+                            <li>Built responsive UIs with HTML/CSS, integrated Figma designs</li>
+                            <li>Managed CRUD operations and implemented features like Cart, Wishlist, and payment gateways</li>
+                            <li>Developed end-to-end AI solutions, integrating NLP models into scalable applications</li>
+                            <li>Created a GenAI-based Cold Email Generator using Llama 3.1, LangChain, ChromaDB, and Streamlit</li>
+                            <li>Built multilingual AI tutor agent using Google's Agent Development Kit (ADK) with voice output capabilities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">
+                    A showcase of my work in AI, Machine Learning, and Full-Stack Development
+                </p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">AI-Powered Job Search Assistant</div>
+                        <div class="project-subtitle">Intelligent Natural Language Query Processing</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Advanced AI application that understands natural language job search queries and retrieves relevant 
+                            job opportunities. Uses cutting-edge NLP techniques for semantic understanding and contextual matching.
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">OpenAI GPT-4</span>
+                            <span class="tech-tag">LangSmith</span>
+                            <span class="tech-tag">SerpAPI</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">RAG-Based AI Chatbots</div>
+                        <div class="project-subtitle">Context-Aware Conversational AI</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Developed intelligent chatbots using Retrieval-Augmented Generation (RAG) architecture with vector databases 
+                            for enhanced context awareness and accurate responses based on domain-specific knowledge.
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">RAG</span>
+                            <span class="tech-tag">Vector Databases</span>
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">Hugging Face</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">GenAI Cold Email Generator</div>
+                        <div class="project-subtitle">Personalized Message Generation System</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Built a sophisticated cold email generation system using Llama 3.1 and LangChain with ChromaDB 
+                            for personalized message creation. Features interactive Streamlit interface for user-friendly experience.
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Llama 3.1</span>
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">ChromaDB</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">Multilingual AI Tutor Agent</div>
+                        <div class="project-subtitle">Voice-Enabled Educational Assistant</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Created an intelligent tutoring system using Google's Agent Development Kit (ADK) with multilingual 
+                            support and voice output capabilities. Capable of understanding user queries and providing educational responses.
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Google ADK</span>
+                            <span class="tech-tag">Voice Processing</span>
+                            <span class="tech-tag">Multilingual NLP</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">Purple E-commerce Platform</div>
+                        <div class="project-subtitle">Full-Stack Web Application</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Comprehensive e-commerce platform built with Python and Django, featuring responsive design, 
+                            complete CRUD operations, shopping cart, wishlist functionality, and integrated payment gateways.
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Payment Integration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">AI Workflow Automation</div>
+                        <div class="project-subtitle">Streamlined Operations System</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Familiar with comprehensive workflow automation solutions using n8n and Zapier to streamline business 
+                            operations, reduce manual tasks, and improve efficiency across various organizational processes.
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">n8n</span>
+                            <span class="tech-tag">Zapier</span>
+                            <span class="tech-tag">Workflow Automation</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">
+                    My academic background and continuous learning journey
+                </p>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="edu-degree">Full Stack Python Development</div>
+                    <div class="edu-school">Brototype</div>
+                    <div class="edu-duration">2023 - 2024</div>
+                </div>
+                <div class="education-card">
+                    <div class="edu-degree">Bachelor's Degree in Computer Application</div>
+                    <div class="edu-school">Madurai Kamaraj University, Perumplavu</div>
+                    <div class="edu-duration">2011 - 2014</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">
+                    Ready to collaborate or discuss opportunities? Let's connect!
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+971523320727">+971 523320727</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:feminaazeezfem@gmail.com">feminaazeezfem@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>611 - Wasl Village, Al Qusais<br>Dubai - United Arab Emirates</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin contact-icon"></i>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://linkedin.com/in/femina-azeez" target="_blank">linkedin.com/in/femina-azeez</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github contact-icon"></i>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/FeminaGafoor" target="_blank">github.com/FeminaGafoor</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://wa.me/971523320727" class="social-link" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://linkedin.com/in/femina-azeez" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/FeminaGafoor" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p>© 2025 Femina Azeez. All rights reserved. | Designed by Femina Azeez</p>
+        </div>
+    </footer>
+
+     <!-- Load JS at the end for better performance -->
+    <script src="script.js"></script>
+</body>
+</html>
